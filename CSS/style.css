@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    flex-direction: column;
+    display: flex;
+    color: white;
+}
+nav{
+    background-color: rgb(102, 139, 14);
+    flex: 0.5;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    color: blue;
+}
+ul, li{
+    padding: 10px;
+    color: blue;
+}
+ul, li, a {
+    text-decoration: none;
+    color: white;
+}
+header{
+    background-color: rgb(12, 201, 235);
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    background: url(../images/vinyl-4808792_1280.jpg);
+}
+header h1{
+    font-size: 50px;
+}
+header p{
+    font-size: 20px;
+}
+button{
+    background-color: rgb(6, 226, 142);
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid rgb(113, 13, 160);
+    border-radius: 20px;
+
+}
+section{
+    display: flex;
+    flex: 5;
+}
+footer{
+    background-color: rgb(218, 164, 17);
+    flex: 0.5;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+aside{
+    background-color: rgb(124, 92, 5);
+    flex:1.5;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+main{
+    background-color: rgb(139, 138, 40);
+    flex: 7;
+}
+#color{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.num{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    padding-top: 20px;
+}
+li{
+    color: blue;
+}
